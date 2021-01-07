@@ -1,0 +1,23 @@
+@import 'src/framework/breakpoints';
+
+:host {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+mat-card {
+    grid-column: 4 / 6;
+}
+
+@media (min-width: $screen-sm) {
+
+}
+
+@media (min-width: $screen-md) {
+
+}
+
+@media (min-width: $screen-lg) {
+
+}
